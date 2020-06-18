@@ -1,5 +1,5 @@
 files = dir('*.mat');
-%random
+%randomefrwg
 for file = files'
     csv = load(file.name);
     vx=diff(csv.x_pos);
